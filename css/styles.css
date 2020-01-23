@@ -1,0 +1,127 @@
+/*------------------TAG ELEMENTS---------------------*/
+body{
+  background-color: #edf7fa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1{
+font-family: 'Pacifico', cursive;
+letter-spacing: 1px;
+font-weight: lighter;
+font-size: 60px;
+color: #edf7fa;
+margin: 0 auto;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight:600;
+  font-size: 2.25em;
+  color: #10316b;
+  margin: 0 auto;
+
+}
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight:400;
+  font-size: 145%;
+  color: #10316b;
+  margin: 0 auto;
+  font-style: italic;
+}
+span{
+  font-style: italic;
+  font-weight: 600;
+}
+p, label{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: lighter;
+letter-spacing: 1px;
+color: #10316b;
+margin: 0 auto;
+font-size: 1.3em;
+}
+label{
+  color: #edf7fa;
+  font-weight: 100;
+  font-size: 1.2em;
+  letter-spacing: 0;
+}
+img{
+
+}
+
+i{
+  font-size: 55px;
+  padding: 5px;
+  display: inline-block;
+  color: #10316b;
+}
+hr{
+  border: none;
+  border-top: dotted;
+  border-color: #d6e5fa;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*------------------CLASS ELEMENTS---------------------*/
+.text-box{
+  line-height: 2;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.profile{
+  border-radius: 100%;
+  width: 12%;
+  padding: 0px;
+}
+.top-container{
+  padding-top: 100px;
+  position: relative;
+  background-color: #10316b;
+}
+.clouds-img-1{
+position: absolute;
+right: 380px;
+top: 50px;
+}
+.clouds-img-2{
+  position: absolute;
+  left: 360px;
+  bottom: 300px;
+}
+.mountain-img{
+position: relative;
+top: 4px;
+}
+.presentation{
+  position:relative;
+}
+.skills{
+  text-align: center;
+  position: relative;
+}
+.middle-container{
+  margin-top: 20px;
+}
+.skill-row{
+  margin-top: 20px;
+}
+.bottom-container{
+  margin-top: 20px;
+}
+.contact-me{
+  margin-top: 20px;
+  background-color:#10316b;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.message-box{
+  margin-bottom: 10px;
+  text-align: center;
+}
+/*------------------ID ELEMENTS---------------------*/
