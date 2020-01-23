@@ -17,7 +17,7 @@ h2{
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
   font-weight:600;
-  font-size: 2.25em;
+  font-size: 2.25rem;
   color: #10316b;
   margin: 0 auto;
 
@@ -26,7 +26,7 @@ h3{
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
   font-weight:400;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #10316b;
   margin: 0 auto;
   font-style: italic;
@@ -51,13 +51,15 @@ font-size: 1.2em;
 label{
   color: #edf7fa;
   font-weight: 100;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   letter-spacing: 0;
 }
 img{
 
 }
-
+form{
+  margin-top: 40px;
+}
 i{
   font-size: 55px;
   padding: 5px;
@@ -70,7 +72,7 @@ hr{
   border-color: #d6e5fa;
   border-width: 10px;
   width: 5%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 /*------------------CLASS ELEMENTS---------------------*/
@@ -78,6 +80,14 @@ hr{
   line-height: 2;
   width: 40%;
   margin: auto;
+  text-align: left;
+}
+.skills-text-box{
+  line-height: 2;
+  width: 40%;
+  margin: auto;
+  text-align: left;
+
 }
 .profile{
   border-radius: 100%;
@@ -104,6 +114,7 @@ position: relative;
 top: 4px;
 }
 .presentation{
+  margin-top: 120px;
   position:relative;
 }
 .skills{
@@ -111,7 +122,7 @@ top: 4px;
   position: relative;
 }
 .middle-container{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .skill-row{
   margin-top: 40px;
@@ -123,16 +134,14 @@ top: 4px;
 
 }
 .contact-me{
-  margin-top: 20px;
+  margin-top: 220px;
   background-color:#10316b;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .message-box{
   margin-bottom: 20px;
-  text-align: center;
 }
-
 .submit{
   background: #71a95a;
   font-family: 'Josefin Sans', sans-serif;
@@ -149,5 +158,17 @@ top: 4px;
   background-color: #007944;
   border-color: #000000;
   color: #000000;
+}
+.img-box{
+  display: inline;
+  padding-right: 550px;
+  padding-bottom: 80px;
+}
+.skills-img{
+  border-radius: 100%;
+  width: 4%;
+  position: absolute;
+  bottom: 228px;
+  left: 540px;
 }
 /*------------------ID ELEMENTS---------------------*/
