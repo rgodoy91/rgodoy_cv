@@ -18,8 +18,9 @@ h2{
   letter-spacing: 1px;
   font-weight:600;
   font-size: 2.25rem;
-  color: #10316b;
-  margin: 0 auto;
+  color: #11999E;
+  margin-top: 40px;
+  margin-bottom: 20px;
 
 }
 h3{
@@ -27,14 +28,8 @@ h3{
   letter-spacing: 1px;
   font-weight:400;
   font-size: 1.5rem;
-  color: #10316b;
+  color: #11999E;
   margin: 0 auto;
-  font-style: italic;
-}
-
-h1,h2,h3{
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 span{
   font-style: italic;
@@ -47,6 +42,7 @@ letter-spacing: 1px;
 color: #10316b;
 margin: 0 auto;
 font-size: 1.2em;
+line-height: 2;
 }
 label{
   color: #edf7fa;
@@ -56,9 +52,6 @@ label{
 }
 img{
 
-}
-form{
-  margin-top: 40px;
 }
 i{
   font-size: 55px;
@@ -80,14 +73,9 @@ hr{
   line-height: 2;
   width: 40%;
   margin: auto;
-  text-align: left;
 }
 .skills-text-box{
   line-height: 2;
-  width: 40%;
-  margin: auto;
-  text-align: left;
-
 }
 .profile{
   border-radius: 100%;
@@ -114,7 +102,6 @@ position: relative;
 top: 4px;
 }
 .presentation{
-  margin-top: 120px;
   position:relative;
 }
 .skills{
@@ -125,7 +112,9 @@ top: 4px;
   margin-top: 40px;
 }
 .skill-row{
-  margin-top: 40px;
+  width: 50%;
+  margin:60px auto 60px auto;
+  text-align: left;
 }
 .bottom-container{
   padding-top: 20px;
@@ -138,9 +127,6 @@ top: 4px;
   background-color:#10316b;
   padding-bottom: 20px;
   padding-top: 40px;
-}
-.message-box{
-  margin-bottom: 20px;
 }
 .submit{
   background: #71a95a;
@@ -160,15 +146,17 @@ top: 4px;
   color: #000000;
 }
 .img-box{
-  display: inline;
-  padding-right: 550px;
-  padding-bottom: 80px;
 }
-.skills-img{
+.computer-img{
+  width: 25%;
   border-radius: 100%;
-  width: 4%;
-  position: absolute;
-  bottom: 228px;
-  left: 540px;
+  float: left;
+  margin-right: 30px;
 }
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
 /*------------------ID ELEMENTS---------------------*/
